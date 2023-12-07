@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+:root {
+    --azulf: #225A76;
+    --azul2: #318EAD;
+    --azul3: #3FCEF6;
+    --azulcl: #A7E7F6;
+    --claro: #EFF1F3;
+}
+
+@media screen and (min-width:768px) {
+    /*Telas maiores que celular*/
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        border: none;
+        background-color: var(--azulf);
+    }
+
+    menu > ul > li > a:hover {
+        color: black;
+    }
+
+    main {
+        width: 768px;
+    }
+
+    
+}
